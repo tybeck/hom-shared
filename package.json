@@ -1,5 +1,5 @@
 {
-  "name": "@hom/shared",
+  "name": "@hoagiesonmain/shared",
   "version": "1.0.0",
   "description": "",
   "files": [
@@ -23,8 +23,5 @@
   "homepage": "https://github.com/tybeck/hom-shared#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
-  },
-  "publishConfig": {
-    "tybeck:registry": "https://npm.pkg.github.com"
   }
 }
