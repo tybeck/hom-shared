@@ -1,0 +1,30 @@
+{
+  "name": "@hom/shared",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tybeck/hom-shared.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tybeck/hom-shared/issues"
+  },
+  "homepage": "https://github.com/tybeck/hom-shared#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "tybeck:registry": "https://npm.pkg.github.com"
+  }
+}
