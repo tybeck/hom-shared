@@ -1,5 +1,6 @@
 export enum ColorName {
   White = 'white',
+  Black = 'black',
   CyanCornflowerBlue = 'cyanCornflowerBlue',
   BrightYellow = 'brightYellow',
   Linen = 'linen',
@@ -20,6 +21,7 @@ export type ISharedTheme = {
 const SharedTheme: ISharedTheme = {
   colors: {
     white: '#FFFFFF',
+    black: '#000000',
     cyanCornflowerBlue: '#1087CB',
     brightYellow: '#FFB124',
     linen: '#F9F4E6',
