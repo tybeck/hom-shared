@@ -11,6 +11,7 @@ export enum ColorName {
   Sunglow = 'sunGlow',
   DeepSaffron = 'deepSaffron',
   DarkSilver = 'darkSilver',
+  Cultured = 'cultured',
 }
 
 export type Color = Record<ColorName, string>;
@@ -33,6 +34,7 @@ const SharedTheme: ISharedTheme = {
     sunGlow: '#FDCD3B',
     deepSaffron: '#FF8E28',
     darkSilver: '#707070',
+    cultured: '#FAF7F2',
   },
 }
 
