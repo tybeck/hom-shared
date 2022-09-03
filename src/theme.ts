@@ -10,6 +10,7 @@ export enum ColorName {
   Pistachio = 'pistachio',
   Sunglow = 'sunGlow',
   DeepSaffron = 'deepSaffron',
+  DarkSilver = 'darkSilver',
 }
 
 export type Color = Record<ColorName, string>;
@@ -31,6 +32,7 @@ const SharedTheme: ISharedTheme = {
     pistachio: '#A0CF67',
     sunGlow: '#FDCD3B',
     deepSaffron: '#FF8E28',
+    darkSilver: '#707070',
   },
 }
 
